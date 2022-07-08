@@ -328,7 +328,7 @@ Change Log
 ## [1.0.4] - 12-29-2018
 
 ### Changed
-* Services: `googleAds()`, `bingAds()` and `facebookAds()` methods.
+* Services: `bingAds()` and `facebookAds()` methods.
 
 -------------------------------------------------------
 

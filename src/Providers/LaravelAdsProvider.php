@@ -15,10 +15,6 @@ class LaravelAdsProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../../config/google-ads.php' => (function_exists('config_path') ? config_path('google-ads.php') : 'google-ads.php')
-        ], 'laravel-ads-sdk');
-
-        $this->publishes([
             __DIR__.'/../../config/bing-ads.php' => (function_exists('config_path') ? config_path('bing-ads.php') : 'bing-ads.php')
         ], 'laravel-ads-sdk');
 

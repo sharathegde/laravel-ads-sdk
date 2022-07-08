@@ -73,9 +73,6 @@ Accessing `GoogleAds`, `BingAds` or `FacebookAds` use the following:
 // The namespace to the Facade for laravel Ads SDK
 use LaravelAds;
 
-// calling Google Ads and including the Account ID
-$googleAds = LaravelAds::googleAds()->with('ACCOUNT_ID');
-
 // calling Bing Ads and including the Account ID
 $bingAds = LaravelAds::bingAds()->with('ACCOUNT_ID');
 
@@ -193,7 +190,7 @@ $bingAds = LaravelAds::bingAds()->addUetTags([
     ]
 ]);
 
-$bingAds = LaravelAds::googleAds()->dd();
+$bingAds = LaravelAds::bingAds()->dd();
 ```
 
 # Contributions
